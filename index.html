@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lino Jay Martinez - STEM Timeline</title>
+    <style>
+        /* Reset some default styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('sunset.JPG'); /* Add your background image URL here */
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #fff;
+        }
+
+        /* Center the content */
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 36px;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Container for the timeline and share buttons */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Style the timeline */
+        .timeline {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .timeline-item {
+            width: 50%;
+            position: relative;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            background: linear-gradient(to right, #4CAF50, #2196F3); /* Gradient background */
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+            color: #fff;
+        }
+
+        /* Style even timeline items to appear on the right */
+        .timeline-item:nth-child(even) {
+            margin-left: auto;
+            margin-right: 0;
+            border-left: none;
+            border-right: 2px solid #2196F3; /* Blue border */
+        }
+
+        .timeline-item::before {
+            content: "\2022"; /* Bullet point */
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            background-color: #fff;
+            border-radius: 50%;
+            position: absolute;
+            left: -15px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 18px;
+            text-align: center;
+        }
+
+        /* Style the share buttons */
+        .share-buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .share-button {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #2196F3; /* Blue color */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .share-button:hover {
+            background-color: #1976D2; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Lino Jay Martinez - STEM Timeline</h1>
+    <div class="container">
+        <!-- Timeline -->
+        <ul class="timeline">
+            <li class="timeline-item">2005 - I was born into this world</li>
+            <li class="timeline-item">2006 - I got my first baseball</li>
+            <li class="timeline-item">2007 - I was sent to the hospital because of my clumsiness</li>
+            <li class="timeline-item">2008 - We went to Australia</li>
+            <li class="timeline-item">2009 - We went to Disneyland</li>
+            <li class="timeline-item">2010 - We came back to the Philippines</li>
+            <li class="timeline-item">2011 - Company goes bankrupt</li>
+            <li class="timeline-item">2012 - We went to Bicol</li>
+            <li class="timeline-item">2013 - I enrolled in school</li>
+            <li class="timeline-item">2014 - I dropped out</li>
+            <li class="timeline-item">2015 - I went to my uncle in the military</li>
+            <li class="timeline-item">2016 - I learned some programming</li>
+            <li class="timeline-item">2017 - I live simply</li>
+            <li class="timeline-item">2018 - I graduated in elementary</li>
+            <li class="timeline-item">2019 - I live simply and studied</li>
+            <li class="timeline-item">2020 - I enlisted as a trainee in the military</li>
+            <li class="timeline-item">2021 - Still in the military</li>
+            <li class="timeline-item">2022 - Graduated in the military</li>
+            <li class="timeline-item">2023 - In a relationship with my beloved girlfriend</li>
+        </ul>
+
+        <!-- Share buttons -->
+        <div class="share-buttons">
+            <a class="share-button" href="https://www.facebook.com/sharer/sharer.php?u=https://ForEducationPurposeOnly.com" target="_blank">Share on Facebook</a>
+            <a class="share-button" href="https://www.facebook.com/messages/t/LinoMartinez" target="_blank">Share on Messenger</a>
+        </div>
+    </div>
+</body>
+</html>
